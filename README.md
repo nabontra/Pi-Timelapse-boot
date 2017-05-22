@@ -1,6 +1,6 @@
 # Raspbery Pi Zero W Timelapse Boot
 
-This is a modified version of [Jeff Geerling's Pi Timelapse] (https://github.com/geerlingguy/pi-timelapse) project.  The script is run as a service at startup and is altered to output to a specific directory rather than current working directory.
+This is a modified version of [Jeff Geerling's Pi Timelapse](https://github.com/geerlingguy/pi-timelapse) project.  The script is run as a service at startup and is altered to output to a specific directory rather than current working directory.
 
 #### 
 
