@@ -39,7 +39,7 @@ sudo chmod 644 /lib/systemd/system/timelapse.service
 3.
 ```
 sudo systemctl daemon-reload
-sudo systemctl enable myscript.service
+sudo systemctl enable timelapse.service
 ```
 Reboot the Pi and your custom service should run :
 ```
@@ -49,7 +49,7 @@ Step 4 – Check status of your service.
 
 You can check the status of your service using :
 ```
-sudo systemctl status myscript.service
+sudo systemctl status timelapse.service
 ```
 
 Once the service is running, I use WinSCP to SSH into my Pi to check the photos as the service is running.
